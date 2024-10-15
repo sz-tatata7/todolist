@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 400px;
+    width: 90%;
     margin: 50px auto;
     background: #1a1a1a; /* コンテナ部分を濃いグレーに設定 */
     padding: 20px;
@@ -105,4 +105,18 @@ footer {
     margin-top: 20px;
     color: #bbbbbb; /* フッターの文字色を薄いグレーに */
     font-size: 14px;
+}
+
+
+/* モバイルデバイスの調整 */
+@media (max-width: 768px) {
+    .task-input {
+        flex-direction: column; /* 縦に並べる */
+        align-items: stretch; /* 幅を揃える */
+    }
+
+    #task-input, #add-task-button {
+        width: 100%; /* 各要素を画面幅に合わせる */
+        margin-bottom: 10px; /* 下にスペースを空ける */
+    }
 }
