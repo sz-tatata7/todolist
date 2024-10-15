@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 30%;
+    width: 70%;
     margin: 50px auto;
     background: #1a1a1a; /* コンテナ部分を濃いグレーに設定 */
     padding: 20px;
