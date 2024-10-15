@@ -108,15 +108,3 @@ footer {
 }
 
 
-/* モバイルデバイスの調整 */
-@media (max-width: 768px) {
-    .task-input {
-        flex-direction: column; /* 縦に並べる */
-        align-items: stretch; /* 幅を揃える */
-    }
-
-    #task-input, #add-task-button {
-        width: 70%; /* 各要素を画面幅に合わせる */
-        margin-bottom: 10px; /* 下にスペースを空ける */
-    }
-}
